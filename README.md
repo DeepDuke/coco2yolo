@@ -1,5 +1,10 @@
 # coco2yolo
 
+## Functions
+
+- Extract some certains classes from the COCO dataset
+- Convert json labels to VOC xml labels and yolo txt labels
+
 ## Requirements
 
 - pycocotools
@@ -28,3 +33,6 @@ python3 voc2yolo.py  # you need to specify the correct path for dataset's labels
 ```python
 python3  test_yolo_labels.py  # you need to specify the correct path for images and converted txt labels first
 ```
+Bboxes are plotted from yolo txt labels, you will see pictures like this:
+
+![](./img/test_yolo_txt_label.png)
